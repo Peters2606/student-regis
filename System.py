@@ -276,8 +276,8 @@ imageicon3=PhotoImage(file="images/search.png")
 srch=Button(root,text="Search",compound=LEFT,image=imageicon3,width=123,bg="#68ddfa",font="arial 13 bold",command=search)
 srch.place(x=1100,y=73)
 
-imageicon4=PhotoImage(file="images/reset.png")
-update_button=Button(root,text="Reset",compound=LEFT,image=imageicon4,width=123,bg="#68ddfa",font="arial 13 bold",command=Update)
+imageicon4=PhotoImage(file="images/update.png")
+update_button=Button(root,text="Update",compound=LEFT,image=imageicon4,width=123,bg="#68ddfa",font="arial 13 bold",command=Update)
 update_button=update_button.place(x=110,y=74)
 
 #registration and date
